@@ -1,0 +1,157 @@
+html * {
+    font-size: 16.5px;
+    font-family: 'Metropolis', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+  
+    line-height: 1.6;
+  
+}
+
+
+@font-face {
+    font-family: 'Metropolis', sans-serif;
+                                              
+    src: url(metropolis/Metropolis-Regular.otf);
+}
+h1 {
+    font-size: 2.5rem !important;
+    letter-spacing: 0.01em;
+}
+.navbar-brand {
+    font-size: 19px !important; 
+   font-weight: bold;
+}
+footer a , footer {
+    color: #A7AEB8 !important;
+}
+.heading {
+    font-weight: 700 !important;
+}
+
+i{
+    font-size: 20px;
+    padding: 0 2px 0 2px;
+}
+
+.nav-head , .dropdown-header{
+    letter-spacing: .125em;
+    font-size: .75rem !important;
+    font-weight: 700;
+}
+  li{
+    font-size: 0.9rem !important;
+}
+.page-header{
+    position: relative !important;
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+}
+.showcase {
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    background-color: #6900c7;
+
+  
+}
+.dropdown-menu-center {
+    left: 44% !important;
+    right: auto !important;
+    border: 0 !important;
+    transform: translate(-50%, 0) !important;
+  }
+  .dropdown-menu-down {
+    left: 75% !important;
+    right: auto !important;
+    border: 0 !important;
+    transform: translate(-50%, 0) !important;
+  }
+  .dropdown-menu-below{
+    left: 60% !important;
+    right: auto !important;
+    border: 0 !important;
+    transform: translate(-50%, 0) !important;
+  }
+ 
+.pill {
+    color: #6900c7 !important;
+    background-color: #e4ddf7;
+    padding: 6px 14px  !important;
+    font-weight: 400 !important;
+}
+
+.btn-transparent-dark {
+    color: rgba(33,40,50,.5);
+    background-color: transparent;
+    border-color: transparent;
+    color: rgba(33,40,50,.5)!important;
+}
+.btn-transparent-dark:hover{
+background-color: rgba(33,40,50,.2);
+    border-color: transparent;
+}
+
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.showcase p {
+    font-size: 1.15rem !important;
+}
+.showcase  {
+   clip-path: polygon(0 0, 100% 0 , 100% calc(100% - 3vw) , 0 100%);
+  }
+  .text-gray {
+ color: #D4DAE3;
+ letter-spacing: .125rem;
+  }
+  .bg-light-blue {
+background-color: #F2F6FC;
+
+  }
+  .blankspace {
+    width:100%;
+    height:100px;
+    background-color:#F2F6FC;
+    transform: rotate(-2deg);
+    position:relative;
+    left:-1px;
+    top:-22px;
+  }
+  .cards::before {
+      content: '';
+      position: absolute;
+       width: 100%;
+    height: 80px;
+    bottom: -30px;
+    right: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+  }
+  .card{
+    border: none !important;
+}
+.cards{
+    overflow: visible;
+    position: relative;
+}
+
+
+.card-body p {
+    font-size: 1rem !important;
+}
+.col-lg-8  p {
+   
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    letter-spacing: .02em;
+}
